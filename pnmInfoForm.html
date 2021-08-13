@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PNM Info Form</title>
+  <meta name="description" content="Collects information on potential new members(PNMs)">
+  <meta name="author" content="Jayen Lare">
+
+  <link rel="stylesheet" href="PNM_Organizer.css">
+
+</head>
+
+<body>
+  <form id="pnmForm" onsubmit="formComplete()" action="connection.php" method="post">
+    <div class="container">
+      <div class="header">
+        <img src="SAE_Crest.png" alt="SAE Crest">
+        <h1>Sigma Alpha Epsilon - <br>Potential New Member Information Form</h1>
+        <hr>
+      </div>
+
+
+      <label for="firstName"><b>First Name:</b></label>
+      <input type="text" placeholder="Enter First Name" name="firstName" id="firstName" required>
+
+      <label for="lastName" ><b>Last Name:</b></label>
+      <input type="text" placeholder="Enter Last Name" name="lastName" id="lastName" required>
+
+      <label for="age"><b>Age:</b></label>
+      <input type="text" placeholder="Enter Age" name="age" id="age" required>
+
+      <label for="gradYear"><b>Graduation Year:</b></label>
+      <input type="text" placeholder="Enter Graduation Year" name="gradYear" id="gradYear" required>
+
+      <label for="hometown"><b>Hometown:</b></label>
+      <input type="text" placeholder="City" name="city" id="city" required>
+      <input type="text" placeholder="State" name="state" id="state" required>
+
+      <label for="highSchool"><b>High School:</b></label>
+      <input type="text" placeholder="Enter High School" name="highSchool" id="highSchool" required>
+
+      <label for="phoneNumber"><b>Phone Number:</b></label>
+      <input type="text" placeholder="Enter First Name" name="phoneNumber" id="phoneNumber" required>
+
+      <label for="instagram"><b>Instagram:</b></label>
+      <input type="text" placeholder="Enter Instagram" name="instagram" id="instagram" required>
+
+      <label for="hobbies"><b>Hobbies/Interest:</b></label>
+      <input type="text" placeholder="List a few hobbies or interests" name="hobbies" id="hobbies" required>
+
+      <label for "legacy"><b>Are you a legacy?</b></label><br>
+      <input type="radio" id="legacy" name="legacy" value="YES" required>
+      <label for="yes">Yes</label><br>
+      <input type="radio" id="legacy" name="legacy" value="NO">
+      <label for="no">No</label><br><br>
+
+      <label for "registered"><b>Are you registered for rush?</b></label><br>
+      <input type="radio" id="registered" name="registered" value="YES" required>
+      <label for="yes">Yes</label><br>
+      <input type="radio" id="registered" name="registered" value="NO">
+      <label for="no">No</label><br><br>
+
+      <hr>
+
+      <button type="submit" class="submitbtn">Submit</button>
+    </div>
+  </form>
+</body>
+</html>

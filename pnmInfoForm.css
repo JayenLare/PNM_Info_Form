@@ -1,0 +1,66 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: goldenrod;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 70px;
+  background: indigo;
+  color: whitesmoke;
+}
+
+.header img {
+  float: left;
+  width: 150px;
+  height: 125px;
+}
+
+.header h1 {
+  position: relative;
+  font-size: 45px;
+  top: 20px;
+  left: 10px;
+  color: goldenrod;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid goldenrod;
+  margin-bottom: 25px;
+}
+
+.submitbtn {
+  background-color: goldenrod;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.submitbtn:hover {
+  opacity:1;
+}
+
