@@ -4,8 +4,8 @@ Built this project for my fraternity to easily gather the necessary information 
 ## Description
 This project was designed to be a more efficient way to gather the necessary information from potential new members(PNMs) that were interested in rushing our fraternity. Traditionally, current members would have to find out this information from each PNM individually, either over text or in person, and manually enter the information into a spreadsheet. However, this project allows PNMs to access a form where they can enter all the information we need on their own, and have it automatically stored in a mySQL database. I built this project using HTML, CSS, PHP, and mySQL.
 
-##Getting Setup
-###Prerequisites
+## Getting Setup
+### Prerequisites
 1. Download and install XAMPP - [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)
 2. Select "Manage Server" tab and start running MySQL Database and Apache Web Server
 ### Installation
